@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5db13;
+}
+
+header > img{
+    width: 64px;
+}
+
+
+header > button {
+    background-color: none;
+    cursor: pointer;
+}
+
+.navbar{
+    display: none;
+    font-size: 50px;
+}
+
+.navbar > a {
+    font-size: 1.5rem;
+    margin: 0 20px 0 0 ;
+}
